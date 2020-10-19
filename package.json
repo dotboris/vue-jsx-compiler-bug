@@ -25,7 +25,7 @@
     "regenerator-runtime": "^0.13.7",
     "vue": "^2.6.12"
   },
-  "resolutions": {
+  "_resolutions": {
     "**/@vue/babel-helper-vue-jsx-merge-props": "< 1.2.0",
     "**/@vue/babel-plugin-transform-vue-jsx": "< 1.2.0",
     "**/@vue/babel-preset-jsx": "< 1.2.0",
