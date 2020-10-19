@@ -1,0 +1,37 @@
+{
+  "name": "vue-jsx-bad-compile",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Boris Bera <bbera@pmctire.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1",
+    "@vue/babel-preset-jsx": "^1.2.2",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "regenerator-runtime": "^0.13.7",
+    "vue": "^2.6.12"
+  },
+  "resolutions": {
+    "**/@vue/babel-helper-vue-jsx-merge-props": "< 1.2.0",
+    "**/@vue/babel-plugin-transform-vue-jsx": "< 1.2.0",
+    "**/@vue/babel-preset-jsx": "< 1.2.0",
+    "**/@vue/babel-sugar-functional-vue": "< 1.2.0",
+    "**/@vue/babel-sugar-inject-h": "< 1.2.0",
+    "**/@vue/babel-sugar-v-model": "< 1.2.0",
+    "**/@vue/babel-sugar-v-on": "< 1.2.0"
+  }
+}
